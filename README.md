@@ -4,12 +4,13 @@ go through directories to unpack cias manually, now you just have to do that sec
 
 
 plans:
-!) directory access
+
+1) directory access
 
 2)automatically unpacking files
 
-3)more than just cia mounting
+~~3)more than just cia mounting~~ done!
 
-4)a menu to select what you want to mount
+~~4)a menu to select what you want to mount~~ done!
 
-5)for my code to not be visible on the top screen
+~~5)for my code to not be visible on the top screen ~~ done!
