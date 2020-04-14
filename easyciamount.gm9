@@ -1,7 +1,35 @@
+##########set#########
 set cianame ""
 set file ""
+set 3dsfname ""
+set dsfname ""
 
-echo "put cia in root of sd card before mounting file;go fuck yourself"
+#########menus#########
+@menu
+set PREVIEW_MODE "easyciamount, mount cias and more with convinience(ish)"
+labelsel -o -s "Choose an Option." choice_*
+goto menu
+
+@choice_ds
+echo "put nds file in root of sd card before mounting it"
+input "what is the name of the nds file you want to mount?"
+imgmount 0:?$[dsfname].nds
+echo "file has been mounted"
+goto leave
+
+@choice_3ds
+echo "put 3ds file in root of sd card before mounting file"
+input "what is the name of the 3ds file you want to mount?" 3dsfname
+imgmount 0:/$[3dsfname].3ds
+echo "file has been mounted"
+goto leave
+
+@choice_cia
+echo "put cia in root of sd card before mounting file"
 input "what is the name of the cia you wish to mount?" cianame
 imgmount 0:/$[cianame].cia
-echo "it has been done"
+echo "file has been mounted"
+goto leave
+
+@leave
+#blank to ctually have this function work
