@@ -13,4 +13,4 @@ plans:
 
 ~~4)a menu to select what you want to mount~~ done!
 
-~~5)for my code to not be visible on the top screen ~~ done!
+~~5)for my code to not be visible on the top screen~~ done!
