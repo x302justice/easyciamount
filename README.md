@@ -1,4 +1,4 @@
-# easymount
+# easyciamount
 a godmode9 script that can be executed. allows for mounting CIA files by just entering it's name, simple for people who don't want to
 go through directories to unpack cias manually, now you just have to do that second part(hoping to change that)
 
